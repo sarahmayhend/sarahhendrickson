@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -6,28 +7,139 @@
   <meta name="description" content="Sarah Hendrickson | Marketing, content, events, and community strategy.">
   <title>Sarah Hendrickson | Marketing & Content Strategist</title>
   <style>
-    :root { color-scheme: light; --bg:#f8f4ee; --ink:#26392f; --accent:#a96957; --muted:#53655b; }
-    * { box-sizing:border-box; }
-    body { margin:0; min-height:100vh; background:radial-gradient(ellipse at 80% 25%, #e4e9df, transparent 52%),var(--bg); color:var(--ink); font:16px/1.75 system-ui,-apple-system,"Segoe UI",sans-serif; }
-    main { width:min(1100px,calc(100% - 48px)); min-height:100vh; margin:auto; display:grid; grid-template-columns:1.1fr .9fr; align-items:center; gap:clamp(28px,6vw,85px); padding:70px 0; }
-    .eyebrow { color:var(--accent); font-size:.76rem; font-weight:750; letter-spacing:.18em; text-transform:uppercase; margin:0 0 18px; }
-    h1 { font:normal clamp(3.3rem,7vw,6rem)/1.05 Georgia,"Times New Roman",serif; letter-spacing:-.055em; margin:0 0 28px; }
-    p { max-width:61ch; }
-    .intro { font-size:clamp(1.1rem,1.8vw,1.3rem); line-height:1.7; margin:0 0 19px; }
-    .detail { color:var(--muted); margin:0; }
-    .portrait { display:block; width:100%; max-width:470px; height:min(70vh,610px); min-height:380px; object-fit:cover; object-position:center 38%; margin:auto; -webkit-mask-image:radial-gradient(ellipse 55% 55% at 50% 50%,#000 66%,rgba(0,0,0,.92) 78%,transparent 100%); mask-image:radial-gradient(ellipse 55% 55% at 50% 50%,#000 66%,rgba(0,0,0,.92) 78%,transparent 100%); }
-    @media(max-width:740px) { main { grid-template-columns:1fr; gap:12px; padding:65px 0 28px; } .portrait { height:440px; min-height:0; max-width:400px; } }
+    :root {
+      color-scheme: light;
+      --bg: #f8f4ee;
+      --ink: #26392f;
+      --accent: #a96957;
+      --muted: #53655b;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background:
+        radial-gradient(ellipse at 80% 25%, #e4e9df, transparent 52%),
+        var(--bg);
+      color: var(--ink);
+      font: 16px/1.75 system-ui, -apple-system, "Segoe UI", sans-serif;
+    }
+
+    main {
+      width: min(1100px, calc(100% - 48px));
+      min-height: 100vh;
+      margin: auto;
+      display: grid;
+      grid-template-columns: 1.1fr .9fr;
+      align-items: center;
+      gap: clamp(28px, 6vw, 85px);
+      padding: 70px 0;
+    }
+
+    .eyebrow {
+      color: var(--accent);
+      font-size: .76rem;
+      font-weight: 750;
+      letter-spacing: .18em;
+      text-transform: uppercase;
+      margin: 0 0 18px;
+    }
+
+    h1 {
+      font: normal clamp(3.3rem, 7vw, 6rem)/1.05 Georgia, "Times New Roman", serif;
+      letter-spacing: -.055em;
+      margin: 0 0 28px;
+    }
+
+    p {
+      max-width: 61ch;
+    }
+
+    .intro {
+      font-size: clamp(1.1rem, 1.8vw, 1.3rem);
+      line-height: 1.7;
+      margin: 0 0 19px;
+    }
+
+    .detail {
+      color: var(--muted);
+      margin: 0;
+    }
+
+    .portrait {
+      display: block;
+      width: 100%;
+      max-width: 470px;
+      height: min(70vh, 610px);
+      min-height: 380px;
+      object-fit: cover;
+      object-position: center 38%;
+      margin: auto;
+
+      -webkit-mask-image: radial-gradient(
+        ellipse 45% 43% at center,
+        black 20%,
+        transparent 100%
+      );
+
+      mask-image: radial-gradient(
+        ellipse 45% 43% at center,
+        black 20%,
+        transparent 100%
+      );
+    }
+
+    @media (max-width: 740px) {
+      main {
+        grid-template-columns: 1fr;
+        gap: 12px;
+        padding: 65px 0 28px;
+      }
+
+      .portrait {
+        height: 440px;
+        min-height: 0;
+        max-width: 400px;
+      }
+    }
   </style>
 </head>
+
 <body>
   <main>
     <section aria-labelledby="name">
       <p class="eyebrow">Marketing · Content · Events</p>
+
       <h1 id="name">Sarah<br>Hendrickson</h1>
-      <p class="intro">I’m a marketing, content, and events strategist with experience connecting brands, ideas, and people across retail, publishing, and technology.</p>
-      <p class="detail">My work spans brand storytelling, integrated campaigns, marketing operations, executive events, and community engagement. From global teams at Citrix to growing businesses and industry communities, I bring strategy and practical execution together to create meaningful connections. Outside of marketing, my background as a sailing instructor and coach has shaped how I approach leadership, teamwork, and communication.</p>
+
+      <p class="intro">
+        I’m a marketing, content, and events strategist with experience
+        connecting brands, ideas, and people across retail, publishing,
+        and technology.
+      </p>
+
+      <p class="detail">
+        My work spans brand storytelling, integrated campaigns,
+        marketing operations, executive events, and community engagement.
+        From global teams at Citrix to growing businesses and industry
+        communities, I bring strategy and practical execution together
+        to create meaningful connections. Outside of marketing, my
+        background as a sailing instructor and coach has shaped how
+        I approach leadership, teamwork, and communication.
+      </p>
     </section>
-    <img class="portrait" src="sarahotrspeakercrop.jpeg" alt="Sarah Hendrickson speaking at a Total Retail Tech event" width="1146" height="1208">
+
+    <img
+      class="portrait"
+      src="sarahotrspeakercrop.jpeg"
+      alt="Sarah Hendrickson speaking at a Total Retail Tech event"
+      width="1146"
+      height="1208"
+    >
   </main>
 </body>
 </html>
